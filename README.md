@@ -1,4 +1,5 @@
-# My Progress with GCDAI so far
+# My Journey with GCDAI so far
+
 | Topics  | Descriptions  | Status  |
 | ------------ | ------------ | ------------ |
 ||![](https://www.bytelion.com/wp-content/uploads/2015/12/python-banner.png)||
@@ -12,4 +13,5 @@
 |Module 4|Data Visualization in Python|Completed|
 |Module 5|Exploratory Data Analysis with Python|Completed|
 |Module 6|Project Guidelines|Completed|
+
 
