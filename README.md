@@ -13,7 +13,7 @@
 |Module 2-3|Numpy and Pandas|Completed|
 |Module 4|Data Visualization in Python|Completed|
 |Module 5|Exploratory Data Analysis with Python|Completed|
-|Module 6|[European Premier League][EDA1]|Completed|
+|Module 6|EDA Project 1: [European Premier League][EDA1]|Completed|
 
 [EDA1]: https://github.com/users/chakrabortyraju/projects/1 "EDA Project"
 
