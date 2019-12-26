@@ -10,7 +10,7 @@
 ||TERM 1: DATA ANALYTICS WITH PYTHON|||
 |Module 1|Fundamentals of Data Science|Completed|
 |Module 2|Python Basics & Statistics|Completed|
-|Module 2-3|Numpy and Pandas|Completed|
+|Module 3|Numpy and Pandas|Completed|
 |Module 4|Data Visualization in Python|Completed|
 |Module 5|Exploratory Data Analysis with Python|Completed|
 |Module 6|EDA PROJECT 1: [European Premier League][EDA1]|Completed|
