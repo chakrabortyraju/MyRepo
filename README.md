@@ -34,12 +34,12 @@ This Exploratory Data Analysis is to practice Python skills learned till now on 
 - **Year:** 1993 to 2018
 - **Description:** The dataset contains details of 9664 matches played from 1993 ro 2018. There are 10 columns in the source dataset. Six of those had some short forms. I tried to find out first the full names to have a better understanding of the dataset:
 
-- FTHG: Full Time Home Goal
-- FTAG: Full Time Away Goal
-- FTR: Full Time Result
-- HTHG: Half Time Home Goal
-- HTAG: Half Time Away Goal
-- HTR: Half Time Result
+ - FTHG: Full Time Home Goal
+ - FTAG: Full Time Away Goal
+ - FTR: Full Time Result
+ - HTHG: Half Time Home Goal
+ - HTAG: Half Time Away Goal
+ - HTR: Half Time Result
 
 ### 2. Load packages and data
 As a part of the anlysis in the beginning I loaded some packages and installed some updates which I felt to be needed in the course of the analysis like - Numpy, Pandas, matplotlib, plotly, chart-studio etc and then the "Eupopean_Premier_League" data set.
