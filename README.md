@@ -48,7 +48,7 @@ Through this step I reviewed the data types and sample data to understand the va
 
 ### 4. Initial Observations and comments:
 During initial anlysis of the data, I felt followign fields needed to looked into:
-![](![rarnings.png](image/rarnings.png))
+![](![rarnings.png](images/rarnings.png))
 - Div column had 9664 Fixed Values (F0) and could be dropped during anlysis.
 - Date column had 2572 out of 9664 distinct. This is quite obvious but this column coould be converted in european seasons (Summer, Winter, Autumn or Fall) for further  anlysis.
 - HomeTeam and AwayTeam columns had some missing values but I could get the list of unique Club names participated in the league.
