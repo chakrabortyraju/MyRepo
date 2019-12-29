@@ -29,10 +29,10 @@ This Exploratory Data Analysis is to practice Python skills learned till now on 
 #### 1.2. Data source and dataset
 ##### a. How was it collected?
 
-**Name:** "European Premier League"
-**Sponsoring Organization:** INSAID
-**Year:** 1993 to 2018
-Description: The dataset contains details of 9664 matches played from 1993 ro 2018. There are 10 columns in the source dataset. Six of those had some short forms. I tried to find out first the full names to have a better understanding of the dataset:
+- **Name:** "European Premier League"
+- **Sponsoring Organization:** INSAID
+- **Year:** 1993 to 2018
+- **Description:** The dataset contains details of 9664 matches played from 1993 ro 2018. There are 10 columns in the source dataset. Six of those had some short forms. I tried to find out first the full names to have a better understanding of the dataset:
 
 - FTHG: Full Time Home Goal
 - FTAG: Full Time Away Goal
