@@ -54,6 +54,12 @@ During initial anlysis of the data, I felt followign fields needed to looked int
 - HomeTeam and AwayTeam columns had some missing values but I could get the list of unique Club names participated in the league.
 - FTHG, FTAG, HTHG, HTAG, HTR fields did not provide any valuable information but FTR column could be used for futher analysis.
 
+### 5. Handling NaN data in the categorical columns
+There are three variables with many missing values. None of them points to a need to "fill in" the missing responses or delete the rows. More detail:
+HTHG: Replaced with median value.
+HTAG: Replaced with median value.
+HTR: Replaced with median value.
+
 #### Top 10 Away Teams
 [![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/top_10_away.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/top_10_away.png)
 
@@ -69,6 +75,10 @@ During initial anlysis of the data, I felt followign fields needed to looked int
 #### Correlations Between Numerical/Categorical fields
 [![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/corr_2.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/corr_2.png)
 
+#### List of Away Teams with WIn, Loss Draw Shares
+[![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/away_W_L_D.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/away_W_L_D.png)
 
+#### List of Home Teams with WIn, Loss Draw Shares
+[![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/home_W_L_D.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/home_W_L_D.png)
 
 
