@@ -41,19 +41,22 @@ Description: The dataset contains details of 9664 matches played from 1993 ro 20
 - HTAG: Half Time Away Goal
 - HTR: Half Time Result
 
-###2. Load packages and data
+## 2. Load packages and data
 As a part of the anlysis in the beginning I loaded some packages and installed some updates which I felt to be needed in the course of the analysis like - Numpy, Pandas, matplotlib, plotly, chart-studio etc and then the "Eupopean_Premier_League" data set.
 
-###3. Data Profiling
+## 3. Data Profiling
 Through this step I reviewed the data types and sample data to understand the varibales I will be dealing with and decide on the variables needed to be transformed in some way before they can be analyzed.
 
-###4. Initial Observations and comments:
+## 4. Initial Observations and comments:
 During initial anlysis of the data, I felt followign fields needed to looked into:
-![](![image.png](image/rarnings.png))
+![](![rarnings.png](image/rarnings.png))
 - Div column had 9664 Fixed Values (F0) and could be dropped during anlysis.
 - Date column had 2572 out of 9664 distinct. This is quite obvious but this column coould be converted in european seasons (Summer, Winter, Autumn or Fall) for further  anlysis.
 - HomeTeam and AwayTeam columns had some missing values but I could get the list of unique Club names participated in the league.
 - FTHG, FTAG, HTHG, HTAG, HTR fields did not provide any valuable information but FTR column could be used for futher analysis.
+
+
+
 
 
 
