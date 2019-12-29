@@ -54,9 +54,20 @@ During initial anlysis of the data, I felt followign fields needed to looked int
 - HomeTeam and AwayTeam columns had some missing values but I could get the list of unique Club names participated in the league.
 - FTHG, FTAG, HTHG, HTAG, HTR fields did not provide any valuable information but FTR column could be used for futher analysis.
 
+#### Top 10 Away Teams
+[![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/top_10_away.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/top_10_away.png)
 
+#### Top 10 Home Teams
+[![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/top_10_home.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/top_10_home.png)
 
+#### Home Team Win/Away Team Win/Draw Percentages
+[![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/prct.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/prct.png)
 
+#### Correlations Between Numerical fields
+[![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/corr_1.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/corr_1.png)
+
+#### Correlations Between Numerical/Categorical fields
+[![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/corr_2.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/corr_2.png)
 
 
 
