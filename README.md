@@ -1,7 +1,7 @@
 # Portfolio
 
 
-Repository containing portfolio of data science projects completed by me for academic, self learning, and hobby purposes. Presented in the form of Simple descriptions and iPython Notebooks.
+Repository containing portfolio of data science projects completed by me for academic, self learning, and hobby purposes. Presented in the form of Simple descriptions and Python Notebooks.
 
 For a detailed professional postfolio please refer to the LinkedIn Profile (https://www.linkedin.com/in/chakrabortyraju)
 
@@ -10,7 +10,7 @@ For a detailed professional postfolio please refer to the LinkedIn Profile (http
 
 - Basics of Python: 
 - Python with Numpy and Pandas:
-- Visualisation with Pandas, Matplotlib and Seaborn:
+- Visualisation with Pandas, Matplotlib and Seaborn. [[Notebook Link for the Some Plot Examples](https://github.com/chakrabortyraju/MyRepo/blob/master/Jupyter_Notebooks/Box_plot.ipynb)]
 
 ### Statistics
 
