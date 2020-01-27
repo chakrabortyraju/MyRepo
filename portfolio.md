@@ -20,6 +20,7 @@ For a detailed professional postfolio please refer to the LinkedIn Profile (http
 ### Data Analysis and Visualisation (EDA)
 1. Data Set 1: European Premier League [[Link for the Jupyter notebook](https://github.com/chakrabortyraju/MyRepo/blob/a5d6907a79b01b647999fe229053e123d35ca583/Jupyter_Notebooks/EDA%20-%20European_Premier_league.ipynb)]
 2. Data Set 2: Breast Cancer Survival [[Link for the Jupyter notebook](https://github.com/chakrabortyraju/MyRepo/blob/a5d6907a79b01b647999fe229053e123d35ca583/Jupyter_Notebooks/EDA%20-%20Wine_Quality.ipynb)]
+3. Data Set 3: Wine Quality [[Link for the Jupyter notebook](https://github.com/chakrabortyraju/MyRepo/blob/master/Jupyter_Notebooks/EDA%20-%20Wine_Quality.ipynb)]
 
 Tools: Pandas, Seaborn and Matplotlib
 
