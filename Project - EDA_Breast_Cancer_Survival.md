@@ -1,4 +1,5 @@
-# EDA – Breast Cancer Survival [[Link for the Jupyter notebook](https://github.com/chakrabortyraju/MyRepo/blob/a5d6907a79b01b647999fe229053e123d35ca583/Jupyter_Notebooks/EDA%20-%20Wine_Quality.ipynb)]
+# EDA – Breast Cancer Survival
+[[Link for the Jupyter notebook](https://github.com/chakrabortyraju/MyRepo/blob/a5d6907a79b01b647999fe229053e123d35ca583/Jupyter_Notebooks/EDA%20-%20Wine_Quality.ipynb)]
 [![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/breast-cancer-facts-what-is-breast-cancer.jpeg)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/breast-cancer-facts-what-is-breast-cancer.jpeg)
 ## WHAT IS BREAST CANCER?
 [![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/download.jpg)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/download.jpg)<br/>
