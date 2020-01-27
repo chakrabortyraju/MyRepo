@@ -19,7 +19,7 @@ For a detailed professional postfolio please refer to the LinkedIn Profile (http
 
 ### Data Analysis and Visualisation (EDA)
 1. Data Set 1: European Premier League
-2. Data Set 2: Breast Cancer Survival [Link for the Jupyter notebook](./Jupyter_Notebooks/EDA_Breast_Cancer_Survival.ipynb)]
+2. Data Set 2: Breast Cancer Survival [[Link for the Jupyter notebook](./Jupyter_Notebooks/EDA_Breast_Cancer_Survival.ipynb)]
 3. Data Set 3: Wine Quality
 
 Tools: Pandas, Seaborn and Matplotlib
