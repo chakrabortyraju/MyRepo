@@ -8,19 +8,19 @@ For a detailed professional postfolio please refer to the LinkedIn Profile (http
 ## Contents
 ### Python
 
-Basics of Python: 
-Python with Numpy and Pandas:
-Visualisation with Pandas, Matplotlib and Seaborn:
+- Basics of Python: 
+- Python with Numpy and Pandas:
+- Visualisation with Pandas, Matplotlib and Seaborn:
 
 ### Statistics
 
-Basics of Statistics:
-Descriptive Statistics:
+- Basics of Statistics:
+- Descriptive Statistics:
 
 ### Data Analysis and Visualisation (EDA)
-Data Set 1: European Premier League
-Data Set 2: Breast Cancer Survival
-Data Set 3: Wine Quality
+1. Data Set 1: European Premier League
+2. Data Set 2: Breast Cancer Survival
+3. Data Set 3: Wine Quality
 
 Tools: Pandas, Seaborn and Matplotlib
 
