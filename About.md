@@ -32,7 +32,9 @@ Tools: Pandas, Seaborn and Matplotlib
 - **Unsupervised Learning:** Creating Customer Segments: Analyzing a dataset containing data on various customers' annual spending amounts (reported in monetary units) of diverse product categories for discovering internal structure, patterns and knowledge.
 Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame
 
-- **ML Logistic Regression:** Predicting salary class of a person using logistic regression.
+**ML Logistic Regression:**
+
+- Predicting salary class of a person using logistic regression.
 
 If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at rajuchakra@gmail.com.
 
