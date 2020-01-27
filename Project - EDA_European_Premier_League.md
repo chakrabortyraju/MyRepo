@@ -1,5 +1,6 @@
 
 # EDA - European Premier League
+[[Link for the Jupyter notebook](https://github.com/chakrabortyraju/MyRepo/blob/a5d6907a79b01b647999fe229053e123d35ca583/Jupyter_Notebooks/EDA%20-%20European_Premier_league.ipynb)]
 ![](https://e1.365dm.com/17/12/768x432/skysports-champions-league-champions-league-trophy-uefa-champions-league_4179916.jpg?20171211102418)
 ### 1. Problem Statement
 This dataset represents details of the teams participated in European Premier League from 1993 till 2018 with their goal scoring details and results against each oppononents in Home or Away matches. My analysis is to find out if there is any trend/probability in their home or away matches or if there is any seasonal effect on the match results.
