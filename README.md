@@ -18,9 +18,9 @@ For a detailed professional postfolio please refer to the LinkedIn Profile (http
 - Descriptive Statistics:
 
 ### Data Analysis and Visualisation (EDA)
-1. Data Set 1: European Premier League [[Link for the Project](https://github.com/chakrabortyraju/MyRepo/blob/master/Project%20-%20EDA_European_Premier_League.md)]
-2. Data Set 2: Breast Cancer Survival [[Link for the Project](https://github.com/chakrabortyraju/MyRepo/blob/master/Project%20-%20EDA_Breast_Cancer_Survival.md)]
-3. Data Set 3: Wine Quality [[Link for the Jupyter notebook](https://github.com/chakrabortyraju/MyRepo/blob/master/Jupyter_Notebooks/EDA%20-%20Wine_Quality.ipynb)]
+1. Data Set 1: European Premier League [[Link for the Analysis Details](https://github.com/chakrabortyraju/MyRepo/blob/master/Project%20-%20EDA_European_Premier_League.md)]
+2. Data Set 2: Breast Cancer Survival [[Link for the Analysis Details](https://github.com/chakrabortyraju/MyRepo/blob/master/Project%20-%20EDA_Breast_Cancer_Survival.md)]
+3. Data Set 3: Wine Quality [[Link for the Analysis Details](https://github.com/chakrabortyraju/MyRepo/blob/master/Project%20-%20EDA_Wine_Quality.md)]
 
 Tools: Pandas, Seaborn and Matplotlib
 
