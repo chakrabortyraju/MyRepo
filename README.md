@@ -8,7 +8,7 @@ Repository containing portfolio of data science projects completed by me for aca
 For a detailed professional postfolio please refer to the LinkedIn Profile (https://www.linkedin.com/in/chakrabortyraju)
 
 ## Contents
-### Python [![](https://freepngimg.com/thumb/python_logo/5-2-python-logo-png-image-thumb.png)](https://freepngimg.com/thumb/python_logo/5-2-python-logo-png-image-thumb.png)
+### Python [![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/5-2-python-logo-png-image-thumb.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/5-2-python-logo-png-image-thumb.png)
 
 - Basics of Python. [[Notebook Link for the Some Basic Python functions](https://github.com/chakrabortyraju/MyRepo/blob/master/Jupyter_Notebooks/Python_basic_functions.ipynb)] 
 - Python with Numpy and Pandas. [[Notebook Link for the Some DataFrame related Examples](https://github.com/chakrabortyraju/MyRepo/blob/master/Jupyter_Notebooks/3.%20DataFrames.ipynb)]
