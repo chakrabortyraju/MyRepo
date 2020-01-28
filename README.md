@@ -1,3 +1,5 @@
+[![](https://intellipaat.com/blog/wp-content/uploads/2018/01/data-scientist-banner-01.jpg)](https://intellipaat.com/blog/wp-content/uploads/2018/01/data-scientist-banner-01.jpg)
+
 # Portfolio
 
 
