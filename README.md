@@ -29,7 +29,7 @@ Tools: Pandas, Seaborn and Matplotlib
 
 [![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/ML1.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/ML1.png)
 
-- **Predicting Boston Housing Prices:** A model to predict the value of a given house in the Boston real estate market using various statistical analysis tools. Identified the best price that a client can sell their house utilizing machine learning.
+- **Predicting Output Sales, given input budgets for TV, radio and newspaper:** A model to predict Sales (in thousands of units) for a particular product as a function of advertising budgets (in thousands of dollars) for TV, radio, and newspaper media. Suppose that in our role as Data Scientist we are asked to suggest.
 - **Supervised Learning:** Finding Donors for CharityML: Testing out several different supervised learning algorithms to build a model that accurately predicts whether an individual makes more than $50,000, to identify likely donors for a fictional non-profit organisation.
 - **Unsupervised Learning:** Creating Customer Segments: Analyzing a dataset containing data on various customers' annual spending amounts (reported in monetary units) of diverse product categories for discovering internal structure, patterns and knowledge.
 Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame
