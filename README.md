@@ -1,4 +1,4 @@
-[![](https://elu.nl/wp-content/uploads/2019/03/Data-Engineer-vs-Data-Scientist-vs-Data-Analyst.png)](https://elu.nl/wp-content/uploads/2019/03/Data-Engineer-vs-Data-Scientist-vs-Data-Analyst.png)
+[![](https://miro.medium.com/max/6134/1*CS0ZAylT40rhogOn_isVSQ.png)](https://miro.medium.com/max/6134/1*CS0ZAylT40rhogOn_isVSQ.png)
 
 # Portfolio
 
