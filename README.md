@@ -8,7 +8,7 @@ For a detailed professional postfolio please refer to the LinkedIn Profile (http
 ## Contents
 ### Python
 
-- Basics of Python: 
+- Basics of Python. [[Notebook Link for the Some DataFrame related Examples](https://github.com/chakrabortyraju/MyRepo/blob/master/Jupyter_Notebooks/Python_basic_functions.ipynb)] 
 - Python with Numpy and Pandas. [[Notebook Link for the Some DataFrame related Examples](https://github.com/chakrabortyraju/MyRepo/blob/master/Jupyter_Notebooks/3.%20DataFrames.ipynb)]
 - Visualisation with Pandas, Matplotlib and Seaborn. [[Notebook Link for the Some Plot related Examples](https://github.com/chakrabortyraju/MyRepo/blob/master/Jupyter_Notebooks/Box_plot.ipynb)]
 
