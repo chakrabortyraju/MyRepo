@@ -1,4 +1,4 @@
-[![](https://intellipaat.com/blog/wp-content/uploads/2018/01/data-scientist-banner-01.jpg)](https://intellipaat.com/blog/wp-content/uploads/2018/01/data-scientist-banner-01.jpg)
+[![](https://elu.nl/wp-content/uploads/2019/03/Data-Engineer-vs-Data-Scientist-vs-Data-Analyst.png)](https://elu.nl/wp-content/uploads/2019/03/Data-Engineer-vs-Data-Scientist-vs-Data-Analyst.png)
 
 # Portfolio
 
