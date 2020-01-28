@@ -1,4 +1,4 @@
-[![](https://miro.medium.com/max/6134/1*CS0ZAylT40rhogOn_isVSQ.png)](https://miro.medium.com/max/6134/1*CS0ZAylT40rhogOn_isVSQ.png)
+[![](https://www.incimages.com/uploaded_files/image/970x450/getty_660952912_363647.jpg)](https://www.incimages.com/uploaded_files/image/970x450/getty_660952912_363647.jpg)
 
 # Portfolio
 
