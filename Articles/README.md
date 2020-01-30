@@ -48,11 +48,11 @@ Output:
 
 4. Python code is easier to reproduce. Commenting code in Python is very easy and thus code can be used to repurpose easily. Data manipulation and data analysis code can be saved as scripts and be reused many times with better version control. We can be sure that our code has executed and the output is correct and consistent. In this sense it is easier for other users to repeat our code.
 
-# importing pandas module 
+`# importing pandas module 
 `import pandas as pd `
 
 # making data frame from csv file 
-`test = pd.read_csv("test.csv") `
+`test = pd.read_csv("test.csv") ``
 
 5. Python is faster doing difficult calculations, generating and scheduling reports: For difficult and analytical calculations, Python has been found to be working faster as compared to excel. For example, creating a multi-page report consisting of tables and charts is very time consuming in Excel where as with a little Python scripting we can have automatically pulled all the data from the various sources, compiled everything into pandas DataFrames, written the whole report out to Excel, and emailed it automatically to intended recipients. The best part, this could have been scheduled to run at a specific time and saved countless hours of work.
 6. Python is easier than vba/macros in Excel: Syntaxes in Python are in colloquial English and thus are easier to be written and used. Also, Python is user-friendly, and both beginners and experienced analysts can use the language with ease. Excel uses VBA language, which is a personalized platform that uses macros to automate tasks for data analysis. VBAs are complex to operate, and they make Excel difficult to work with when dealing with multiple operations during data analysis. The use of macros to automate tasks is more complex than the automation of tasks in the Python environment.
