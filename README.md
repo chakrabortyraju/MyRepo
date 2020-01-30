@@ -14,11 +14,6 @@ For a detailed professional postfolio please refer to the LinkedIn Profile (http
 - Python with Numpy and Pandas. [[Notebook Link for the Some DataFrame related Examples](https://github.com/chakrabortyraju/MyRepo/blob/master/Jupyter_Notebooks/3.%20DataFrames.ipynb)]
 - Visualisation with Pandas, Matplotlib and Seaborn. [[Notebook Link for the Some Plot related Examples](https://github.com/chakrabortyraju/MyRepo/blob/master/Jupyter_Notebooks/Box_plot.ipynb)]
 
-[![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/stats.jpg)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/stats.jpg)
-
-- Basics of Statistics:
-- Descriptive Statistics:
-
 [![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/EDA.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/EDA.png)
 
 ### Practice Dataset
