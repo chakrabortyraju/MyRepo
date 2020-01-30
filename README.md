@@ -22,11 +22,11 @@ Drafted Article for **AICRA Future Tech Magazine:** [[Can Python supersede Ms Ex
 ### Practice Dataset
 - **McDonalds:** Based on cultural and economic similarities/dissimilarities throughout the world, how can McDonald's expand in the developing countries in the near future?
 
-Tools: Pandas, Seaborn and Matplotlib
+**Libraries/Tools:** Pandas, Seaborn and Matplotlib
 
 - **Mental Health in tech Workshop:** This dataset is from a 2014 survey that measures attitudes towards mental health and frequency of mental health disorders in the tech workplace.
 
-Tools: Pandas, Seaborn and Matplotlib
+**Libraries/Tools:** Pandas, Seaborn and Matplotlib
 
 ### Project Dataset
 1. Data Set 1: European Premier League [[Link for the Analysis Details](https://github.com/chakrabortyraju/MyRepo/blob/master/Project%20-%20EDA_European_Premier_League.md)]
@@ -50,7 +50,7 @@ Tools: Pandas, Seaborn and Matplotlib
 ### Practice Dataset (Titanic Data Set)
 - **Predicting the Survival of Titanic Passengers:** This study used the datasets to make prediction on the survival outcome of passengers in the tested data with a model built from the trained dataset. Since this is a binary outcome prediction, the logistic regression analysis was used to model.
 
-Tools: Numpy, Pandas, Seaborn, Matplotlib and sklearn (metrics)
+**Libraries/Tools:** Numpy, Pandas, Seaborn, Matplotlib and sklearn (metrics)
 
 If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at rajuchakra@gmail.com.
 
