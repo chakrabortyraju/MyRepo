@@ -21,6 +21,11 @@ For a detailed professional postfolio please refer to the LinkedIn Profile (http
 
 [![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/EDA.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/EDA.png)
 
+### Practice Dataset
+- McDonalds
+- Mental Health in tech Workshop
+
+### Project Dataset
 1. Data Set 1: European Premier League [[Link for the Analysis Details](https://github.com/chakrabortyraju/MyRepo/blob/master/Project%20-%20EDA_European_Premier_League.md)]
 2. Data Set 2: Breast Cancer Survival [[Link for the Analysis Details](https://github.com/chakrabortyraju/MyRepo/blob/master/Project%20-%20EDA_Breast_Cancer_Survival.md)]
 3. Data Set 3: Wine Quality [[Link for the Analysis Details](https://github.com/chakrabortyraju/MyRepo/blob/master/Project%20-%20EDA_Wine_Quality.md)]
@@ -29,14 +34,14 @@ Tools: Pandas, Seaborn and Matplotlib
 
 [![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/ML1.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/ML1.png)
 
+### Practice Dataset (Advertising Data Set)
 - **Predicting Output Sales, given input budgets for TV, radio and newspaper:** A model to predict Sales (in thousands of units) for a particular product as a function of advertising budgets (in thousands of dollars) for TV, radio, and newspaper media. Suppose that in our role as Data Scientist we are asked to suggest.
-- **Supervised Learning:** Finding Donors for CharityML: Testing out several different supervised learning algorithms to build a model that accurately predicts whether an individual makes more than $50,000, to identify likely donors for a fictional non-profit organisation.
-- **Unsupervised Learning:** Creating Customer Segments: Analyzing a dataset containing data on various customers' annual spending amounts (reported in monetary units) of diverse product categories for discovering internal structure, patterns and knowledge.
-Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame
+
 
 [![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/ML2.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/ML2.png)
 
-- Predicting salary class of a person using logistic regression.
+### Practice Dataset (Titanic Data Set)
+- **Predicting the Survival of Titanic Passengers:** This study used the datasets to make prediction on the survival outcome of passengers in the tested data with a model built from the trained dataset. Since this is a binary outcome prediction, the logistic regression analysis was used to model.
 
 If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at rajuchakra@gmail.com.
 
