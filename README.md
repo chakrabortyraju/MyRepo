@@ -2,6 +2,7 @@
 
 # Portfolio
 
+An **Operations/Project-Account Manager/A Data Science Enthusiast** with strong interest in **Client Communications/Account Management/Data Analytics** and with more nearly **18 years of experience** in **ITES (Digital Publishing Service) industry**. Skilled in **Project-Account Management, Budgeting, Project Planning and knowledge in Data Analysis with Python-Pandas, Seaborn and Matplotlib, EDA, Linear and Logistic Regression Modeling Algorithms**.
 
 Repository containing portfolio of data science projects completed by me for academic, self learning, and hobby purposes. Presented in the form of Simple descriptions and Python Notebooks.
 
