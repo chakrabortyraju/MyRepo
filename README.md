@@ -33,7 +33,7 @@ Tools: Pandas, Seaborn and Matplotlib
 2. Data Set 2: Breast Cancer Survival [[Link for the Analysis Details](https://github.com/chakrabortyraju/MyRepo/blob/master/Project%20-%20EDA_Breast_Cancer_Survival.md)]
 3. Data Set 3: Wine Quality [[Link for the Analysis Details](https://github.com/chakrabortyraju/MyRepo/blob/master/Project%20-%20EDA_Wine_Quality.md)]
 
-Tools: Pandas, Seaborn and Matplotlib
+**Libraries/Tools:** Pandas, Seaborn, Matplotlib and sklearn (metrics)
 
 [![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/ML1.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/ML1.png)
 
@@ -43,7 +43,7 @@ Tools: Pandas, Seaborn and Matplotlib
      - Which media contribute to sales?
      - Visualize the relationship between the features and the response using scatter plots.
 
-Tools: Pandas, Seaborn, Matplotlib and sklearn (metrics)
+**Libraries/Tools:** Pandas, Seaborn, Matplotlib and sklearn (metrics)
 
 [![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/ML2.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/ML2.png)
 
