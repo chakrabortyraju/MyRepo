@@ -18,29 +18,29 @@ There are several reasons to use Python over Excel:
 
 - Here is vlookup using python (in 4 simple lines):
 
-df = pd.read_excel(filename)
+`df = pd.read_excel(filename)
 results = df.merge(filename, on='Name')
-print (results)
+print (results)`
 
 - A simple Pivot table showing us the sum of SepalWidth in values, SepalLength in Row Column and Name in Column Labels:
 
-pd.pivot_table(df, values='SepalWidth', index = 'SepalLength', column = 'Name', aggfunc - np.sum)
+`pd.pivot_table(df, values='SepalWidth', index = 'SepalLength', column = 'Name', aggfunc - np.sum)`
 
 - Groupby (Subtotals in Excel):
 
-df[['Name','SepalLength']].groupby('name').sum()
+`df[['Name','SepalLength']].groupby('name').sum()
 GroupBy = df.groupby('Name').sum()
-Group_By.append(pd.DataFrame(df[['SepalLength', 'SepalWidth','PetalLength','PetalWidth']].sum()).T)
+Group_By.append(pd.DataFrame(df[['SepalLength', 'SepalWidth','PetalLength','PetalWidth']].sum()).T)`
 
 2. Data cleanup is easier in Python: Cleaning up data is way easier and time saving in Python as compared to Excel. For example, with a few lines of code we can detect and replace missing values in a data set irrespective of its size:
 
-import pandas as pd 
+`import pandas as pd 
 nba = pd.read_csv("nba.csv") 
-nba["College"].fillna("No College", inplace = True)
+nba["College"].fillna("No College", inplace = True)`
 
 3. Descriptive Statistics: Getting insights and generating descriptive statistics that summarize the central tendency, dispersion and shape of a dataset’s distribution, excluding NaN values of a dataset at the beginning is very important for a Data scientist. This can be done both in Excel and Python. In Python it is easier than it is in Excel. It can be done with a single line of code: 
 
-df.describe()
+`df.describe()`
 
 Output:
 
@@ -49,10 +49,10 @@ Output:
 4. Python code is easier to reproduce. Commenting code in Python is very easy and thus code can be used to repurpose easily. Data manipulation and data analysis code can be saved as scripts and be reused many times with better version control. We can be sure that our code has executed and the output is correct and consistent. In this sense it is easier for other users to repeat our code.
 
 # importing pandas module 
-import pandas as pd 
+`import pandas as pd `
 
 # making data frame from csv file 
-test = pd.read_csv("test.csv") 
+`test = pd.read_csv("test.csv") `
 
 5. Python is faster doing difficult calculations, generating and scheduling reports: For difficult and analytical calculations, Python has been found to be working faster as compared to excel. For example, creating a multi-page report consisting of tables and charts is very time consuming in Excel where as with a little Python scripting we can have automatically pulled all the data from the various sources, compiled everything into pandas DataFrames, written the whole report out to Excel, and emailed it automatically to intended recipients. The best part, this could have been scheduled to run at a specific time and saved countless hours of work.
 6. Python is easier than vba/macros in Excel: Syntaxes in Python are in colloquial English and thus are easier to be written and used. Also, Python is user-friendly, and both beginners and experienced analysts can use the language with ease. Excel uses VBA language, which is a personalized platform that uses macros to automate tasks for data analysis. VBAs are complex to operate, and they make Excel difficult to work with when dealing with multiple operations during data analysis. The use of macros to automate tasks is more complex than the automation of tasks in the Python environment.
@@ -78,6 +78,5 @@ So, while Excel isn’t going away, Python is a great tool if we want clean data
 
 
 [![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/a5.jpg)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/a5.jpg)
- - Sr. Project Manager – Digital Publishing<br>
- - Aspiring Data Scientist - INSAID
-
+Sr. Project Manager – Digital Publishing
+Aspiring Data Scientist - INSAID
