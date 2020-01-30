@@ -22,8 +22,13 @@ For a detailed professional postfolio please refer to the LinkedIn Profile (http
 [![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/EDA.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/EDA.png)
 
 ### Practice Dataset
-- McDonalds
-- Mental Health in tech Workshop
+- **McDonalds:** Based on cultural and economic similarities/dissimilarities throughout the world, how can McDonald's expand in the developing countries in the near future?
+
+Tools: Pandas, Seaborn and Matplotlib
+
+- **Mental Health in tech Workshop:** This dataset is from a 2014 survey that measures attitudes towards mental health and frequency of mental health disorders in the tech workplace.
+
+Tools: Pandas, Seaborn and Matplotlib
 
 ### Project Dataset
 1. Data Set 1: European Premier League [[Link for the Analysis Details](https://github.com/chakrabortyraju/MyRepo/blob/master/Project%20-%20EDA_European_Premier_League.md)]
