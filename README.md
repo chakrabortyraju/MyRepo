@@ -14,6 +14,8 @@ For a detailed professional postfolio please refer to the LinkedIn Profile (http
 - Python with Numpy and Pandas. [[Notebook Link for the Some DataFrame related Examples](https://github.com/chakrabortyraju/MyRepo/blob/master/Jupyter_Notebooks/3.%20DataFrames.ipynb)]
 - Visualisation with Pandas, Matplotlib and Seaborn. [[Notebook Link for the Some Plot related Examples](https://github.com/chakrabortyraju/MyRepo/blob/master/Jupyter_Notebooks/Box_plot.ipynb)]
 
+Drafted Article for **AICRA Future Tech Magazine:** [[Can Python Supersede Ms Excel - A datascientist Perspective](https://github.com/chakrabortyraju/MyRepo/blob/master/Articles/Can%20Python%20supersede%20Ms%20Excel.docx)]
+
 [![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/EDA.png)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/EDA.png)
 
 ### Practice Dataset
