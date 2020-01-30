@@ -39,9 +39,9 @@ Tools: Pandas, Seaborn and Matplotlib
 
 ### Practice Dataset (Advertising Data Set)
 - **Predicting Output Sales, given input budgets for TV, radio and newspaper:** A model to predict Sales (in thousands of units) for a particular product as a function of advertising budgets (in thousands of dollars) for TV, radio, and newspaper media. Suppose that in our role as Data Scientist we are asked to suggest.
-       - We want to find a function that given input budgets for TV, radio and newspaper predicts the output sales.
-       - Which media contribute to sales?
-       - Visualize the relationship between the features and the response using scatter plots.
+     - We want to find a function that given input budgets for TV, radio and newspaper predicts the output sales.
+     - Which media contribute to sales?
+     - Visualize the relationship between the features and the response using scatter plots.
 
 Tools: Pandas, Seaborn, Matplotlib and sklearn (metrics)
 
