@@ -77,6 +77,6 @@ So, while Excel isn’t going away, Python is a great tool if we want clean data
 ------------
 
 
-[![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/a5.jpg)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/a5.jpg)
+[![](https://github.com/chakrabortyraju/MyRepo/blob/master/images/a5.jpg)](https://github.com/chakrabortyraju/MyRepo/blob/master/images/a5.jpg)<br>
 -- Sr. Project Manager – Digital Publishing<br/>
 -- Aspiring Data Scientist - INSAID
