@@ -226,21 +226,155 @@ backend:
           comment: "Orders and enquiries persist correctly in MongoDB. Unique IDs and order codes generated. Multiple orders can be created consistently."
 
 frontend:
-  # No frontend testing performed as per instructions
+  - task: "Navbar + cart icon with badge"
+    implemented: true
+    working: true
+    file: "src/components/Navbar.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "Navbar has Phagoli logo, nav links (Home, Farmstay, Products, Experiences, Our Story, Journal, Contact), cart icon with live item-count badge, and Book a Stay CTA. Should turn cream/scrolled style after scrolling past 60px. Clicking cart icon opens CartDrawer."
+        - working: true
+          agent: "testing"
+          comment: "Navbar works perfectly. Cart icon visible with badge that shows item count (tested with 1 item). Navbar changes to scrolled state after scrolling past 60px. All nav links present and functional. Cart icon opens drawer correctly."
+
+  - task: "Hero slideshow with 3 slides and dots"
+    implemented: true
+    working: true
+    file: "src/components/Hero.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "Hero auto-rotates every 6.5s across 3 slides. Dot indicators should update. Clicking dots should change slide. 'Check Availability / Visit The Farm / Explore Rooms' CTA should scroll to #farmstay; 'Shop Microlots' should scroll to #products."
+        - working: true
+          agent: "testing"
+          comment: "Hero slideshow works perfectly. Auto-rotates every 6.5s (tested: 'A Song in Stone' → 'Permaculture Practice'). 3 dot indicators present and clickable. Slide changes when dots are clicked."
+
+  - task: "Products category grid + Explore modal fetches backend"
+    implemented: true
+    working: true
+    file: "src/components/Products.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "6 product categories displayed as cards. Click 'Explore Collection' should open a full-screen modal and fetch real products from GET /api/products?category=<id>. Each product card should show image, name, unit, description, price in ₹, and an 'Add' button. Add should push item into cart and show toast + auto-open cart drawer. Close modal on backdrop click or X icon."
+        - working: true
+          agent: "testing"
+          comment: "Products modal works perfectly. 6 category cards displayed. Clicking 'Explore Collection' opens modal with 'PREMIUM DAIRY COLLECTION' title. Fetches products from GET /api/products?category=dairy. Shows 5 products: A2 Desi Cow Milk (₹120), Cultured Bilona Ghee (₹900), Fresh Farm Paneer (₹220), Probiotic Desi Curd (₹100), White Farm Butter (₹350). Each has image, name, unit, description, price, and Add button. Modal closes via X button or backdrop click."
+
+  - task: "Cart drawer with qty, remove, subtotal, checkout"
+    implemented: true
+    working: true
+    file: "src/components/CartDrawer.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "Cart drawer slides from right. Shows items with qty +/- controls, remove button, per-item subtotal, and total subtotal. 'Continue to Checkout' shows the delivery form. Form requires name + phone; submits POST /api/orders which returns order_code and whatsapp_url. On success opens WhatsApp in new tab, clears cart, closes drawer. LocalStorage should persist cart across reloads."
+        - working: true
+          agent: "testing"
+          comment: "Cart drawer works perfectly. Auto-opens when item added. Shows item with image, name, unit, qty controls (+/-), remove button, and subtotal (₹120). Qty controls work correctly. 'Continue to Checkout' shows delivery form with fields: name*, phone*, address, city, pincode, notes. Form validation works (rejects empty name/phone). Submitted order with customer data: Rohan Sharma, +919876543210, Indiranagar 100 Feet Road, Bangalore 560038. Order created successfully with code PHG-20260419-KA8K. WhatsApp opened with order details (https://api.whatsapp.com/send/?phone=919999996287&text=...). Cart cleared after successful order. Success toast displayed."
+
+  - task: "Farmstay booking modal -> POST /api/enquiries + WhatsApp"
+    implemented: true
+    working: true
+    file: "src/components/Farmstay.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "Each room card has 'Book' button; 'Check Availability' at bottom too. Opens modal with name, phone, email, check-in, check-out, guests, notes. Submit calls POST /api/enquiries with type='booking' and opens WhatsApp in new tab."
+        - working: true
+          agent: "testing"
+          comment: "Farmstay booking modal works perfectly. Room cards displayed (The Barbet Suite, etc.). 'Book' button opens modal with title 'Farmstay Enquiry' and room name. Form has fields: name*, phone*, email, check-in, check-out, guests, notes. Validation works (rejects empty name/phone). Submitted booking with: Neha Kapoor, +919812345678, neha@example.com, 3 guests. POST /api/enquiries with type='booking' successful. WhatsApp opened with booking details."
+
+  - task: "Experiences reserve modal -> POST /api/enquiries + WhatsApp"
+    implemented: true
+    working: true
+    file: "src/components/Experiences.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "4 experience cards (Farm Stay, Elder Retreat, Work Retreat, Master Classes). 'Reserve' opens a modal. Submit POSTs enquiry type='experience' and opens WhatsApp."
+        - working: true
+          agent: "testing"
+          comment: "Experiences reserve modal works perfectly. 'Reserve' button opens modal with title 'Reserve Experience'. Form has fields: name*, phone*, email, date, guests, notes. Validation works. Submitted reservation with: Vikram Singh, +919123456789, 4 guests. POST /api/enquiries with type='experience' successful. WhatsApp opened."
+
+  - task: "Partnership modal (4 kinds) -> POST /api/enquiries + WhatsApp"
+    implemented: true
+    working: true
+    file: "src/components/Partnership.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "Request Bulk Quote, Join Farmer Network buttons, plus 4 clickable partnership tiles. Opens modal. Submit POSTs enquiry type='partnership' and opens WhatsApp."
+        - working: true
+          agent: "testing"
+          comment: "Partnership modals work perfectly. 'Request Bulk Quote' opens 'Bulk Supply Partnership' modal. 'Join Farmer Network' opens 'Farmer Connect Program' modal. All 4 partnership tile buttons work. Form has fields: name*, phone*, email, company, volume, notes. Validation works. Submitted enquiry with: Ramesh Patel, +919988776655, Green Farms Co. POST /api/enquiries with type='partnership' successful. WhatsApp opened."
+
+  - task: "Contact form -> POST /api/enquiries + WhatsApp"
+    implemented: true
+    working: true
+    file: "src/components/Contact.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "Contact form with name, email, phone, interest dropdown, message. Requires name + email. Submit POSTs enquiry type='contact' and opens WhatsApp with Send button label 'Send on WhatsApp'."
+        - working: true
+          agent: "testing"
+          comment: "Contact form works perfectly. Form has fields: name*, email*, phone, interest dropdown (Farmstay, Organic Products, etc.), message. Validation works (rejects empty name/email). Submitted with: Anjali Desai, anjali@example.com, +919876543210, interest='Farmstay', message about weekend stay. POST /api/enquiries with type='contact' successful. WhatsApp opened. Button label is 'Send on WhatsApp' as specified."
+
+  - task: "Mobile navigation panel + responsive layout"
+    implemented: true
+    working: true
+    file: "src/components/Navbar.jsx"
+    stuck_count: 0
+    priority: "low"
+    needs_retesting: false
+    status_history:
+        - working: "NA"
+          agent: "main"
+          comment: "On mobile (≤900px), hamburger menu opens a slide-over panel with large nav links. Cart icon still visible in navbar."
+        - working: true
+          agent: "testing"
+          comment: "Mobile navigation works perfectly. Tested at 390x844 viewport. Hamburger menu visible and clickable. Opens mobile panel with nav links. Panel closes via X button. Cart icon remains visible on mobile. Products grid stacks appropriately on mobile."
 
 metadata:
-  created_by: "testing_agent"
-  version: "1.0"
-  test_sequence: 1
+  created_by: "main_agent"
+  version: "1.2"
+  test_sequence: 3
   run_ui: false
 
 test_plan:
-  current_focus:
-    - "All backend API endpoints tested"
+  current_focus: []
   stuck_tasks: []
-  test_all: true
+  test_all: false
   test_priority: "high_first"
 
 agent_communication:
     - agent: "testing"
       message: "Comprehensive backend testing completed. All major functionality working correctly. 19/21 tests passed (90.5% success rate). Only minor issues with HTTP status codes (422 vs 400) for validation errors, but core functionality is solid. WhatsApp URL generation works perfectly with proper encoding. Data persistence verified. Backend is production-ready."
+    - agent: "testing"
+      message: "✅ COMPREHENSIVE FRONTEND UI TESTING COMPLETED - ALL FLOWS WORKING PERFECTLY. Tested all 8 frontend tasks end-to-end with real user scenarios. Key findings: (1) Hero slideshow auto-rotates correctly every 6.5s with 3 slides and working dot indicators. (2) Navbar scroll behavior works - changes to scrolled state after 60px. Cart badge shows live count. (3) Products modal opens and fetches 5 dairy products from GET /api/products?category=dairy. All products display correctly with images, prices, and Add buttons. (4) Add to cart works - cart badge updates, drawer auto-opens, toast notification appears. (5) Cart operations work - qty +/- controls, remove button, subtotal calculation (₹120 for 1 item). (6) Checkout flow works perfectly - form validation rejects empty name/phone, accepts valid data, submits POST /api/orders, generates order code PHG-20260419-KA8K, opens WhatsApp with order details, clears cart after success. (7) Farmstay booking modal works - validation, form submission, POST /api/enquiries type=booking, WhatsApp opens. (8) Experiences reserve modal works - all fields functional, submission successful. (9) Partnership modals work - all 4 types (Bulk Supply, Farmer Connect, Private Label, CSR/ESG) open correctly, form submission works. (10) Contact form works - validation, interest dropdown, POST /api/enquiries type=contact, WhatsApp opens with 'Send on WhatsApp' button. (11) Mobile navigation works - hamburger menu opens panel at 390x844 viewport, cart icon visible. (12) API calls verified: 1 GET /api/products, 1 POST /api/orders, 4 POST /api/enquiries. No console errors detected. All WhatsApp redirects working correctly. LocalStorage cart persistence working. The entire application is production-ready with all user flows functioning as designed."
