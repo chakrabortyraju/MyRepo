@@ -101,3 +101,146 @@
 #====================================================================================================
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
+
+user_problem_statement: "Test the Phagoli backend fully with comprehensive API endpoint testing"
+
+backend:
+  - task: "Root API endpoint"
+    implemented: true
+    working: true
+    file: "server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "testing"
+          comment: "GET /api/ returns correct response: {message: 'Phagoli API', whatsapp: '+91 99999 96287'}"
+
+  - task: "WhatsApp configuration endpoint"
+    implemented: true
+    working: true
+    file: "server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "testing"
+          comment: "GET /api/whatsapp-config returns correct config: {number: '919999996287', display: '+91 99999 96287'}"
+
+  - task: "Products listing endpoint"
+    implemented: true
+    working: true
+    file: "server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "testing"
+          comment: "GET /api/products returns all 29 seeded products with correct fields (id, category_id, name, description, price, unit, image, in_stock, created_at)"
+
+  - task: "Products by category filtering"
+    implemented: true
+    working: true
+    file: "server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "testing"
+          comment: "GET /api/products?category=X works for all categories: dairy(5), poultry(4), produce(5), grains(5), specialties(5), pooja(5)"
+
+  - task: "Single product retrieval"
+    implemented: true
+    working: true
+    file: "server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "testing"
+          comment: "GET /api/products/{id} returns correct product data and properly returns 404 for invalid IDs"
+
+  - task: "Order creation endpoint"
+    implemented: true
+    working: true
+    file: "server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "testing"
+          comment: "POST /api/orders creates orders with correct order_code format (PHG-YYYYMMDD-XXXX), calculates subtotal correctly (₹460), generates proper WhatsApp URL with encoded order details including customer info and items"
+
+  - task: "Order validation"
+    implemented: true
+    working: true
+    file: "server.py"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "testing"
+          comment: "Minor: Order validation returns 422 instead of 400 for missing name/phone, but correctly rejects invalid requests. Empty items array properly returns 400. Core functionality works correctly."
+
+  - task: "Enquiries creation endpoint"
+    implemented: true
+    working: true
+    file: "server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "testing"
+          comment: "POST /api/enquiries works for all 4 types (booking, experience, partnership, contact) and returns proper response with id and whatsapp_url"
+
+  - task: "Enquiries validation"
+    implemented: true
+    working: true
+    file: "server.py"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "testing"
+          comment: "POST /api/enquiries properly validates empty data (400) and invalid types (422)"
+
+  - task: "Data persistence in MongoDB"
+    implemented: true
+    working: true
+    file: "server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "testing"
+          comment: "Orders and enquiries persist correctly in MongoDB. Unique IDs and order codes generated. Multiple orders can be created consistently."
+
+frontend:
+  # No frontend testing performed as per instructions
+
+metadata:
+  created_by: "testing_agent"
+  version: "1.0"
+  test_sequence: 1
+  run_ui: false
+
+test_plan:
+  current_focus:
+    - "All backend API endpoints tested"
+  stuck_tasks: []
+  test_all: true
+  test_priority: "high_first"
+
+agent_communication:
+    - agent: "testing"
+      message: "Comprehensive backend testing completed. All major functionality working correctly. 19/21 tests passed (90.5% success rate). Only minor issues with HTTP status codes (422 vs 400) for validation errors, but core functionality is solid. WhatsApp URL generation works perfectly with proper encoding. Data persistence verified. Backend is production-ready."

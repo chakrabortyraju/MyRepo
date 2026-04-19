@@ -1,16 +1,25 @@
 import { useState } from 'react';
 import { BRAND } from '../data/mock';
-import { Phone, Mail, MapPin, Send } from 'lucide-react';
+import { Phone, Mail, MapPin, Send, Loader2 } from 'lucide-react';
+import { createEnquiry } from '../lib/api';
 import { toast } from 'sonner';
 
 export default function Contact() {
-  const [form, setForm] = useState({ name: '', email: '', interest: 'Farmstay', message: '' });
+  const [form, setForm] = useState({ name: '', email: '', phone: '', interest: 'Farmstay', message: '' });
+  const [submitting, setSubmitting] = useState(false);
   const onChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
-  const submit = (e) => {
+
+  const submit = async (e) => {
     e.preventDefault();
-    if (!form.name || !form.email) { toast.error('Please share your name and email.'); return; }
-    toast.success(`Namaste ${form.name.split(' ')[0]} — we will be in touch soon.`);
-    setForm({ name: '', email: '', interest: 'Farmstay', message: '' });
+    if (!form.name || !form.email) return toast.error('Please share your name and email.');
+    setSubmitting(true);
+    try {
+      const res = await createEnquiry('contact', form);
+      toast.success(`Namaste ${form.name.split(' ')[0]} — opening WhatsApp to finish.`);
+      window.open(res.whatsapp_url, '_blank', 'noopener,noreferrer');
+      setForm({ name: '', email: '', phone: '', interest: 'Farmstay', message: '' });
+    } catch { toast.error('Could not submit. Please retry.'); }
+    finally { setSubmitting(false); }
   };
 
   return (
@@ -47,6 +56,7 @@ export default function Contact() {
               <input name="name" value={form.name} onChange={onChange} placeholder="Your name" className="field" />
               <input name="email" type="email" value={form.email} onChange={onChange} placeholder="Email address" className="field" />
             </div>
+            <input name="phone" value={form.phone} onChange={onChange} placeholder="Phone (optional)" className="field" />
             <div className="mb-6">
               <label style={{ fontSize: 11, letterSpacing: '.22em', textTransform: 'uppercase', color: 'var(--muted)' }}>I am interested in</label>
               <select name="interest" value={form.interest} onChange={onChange} className="field" style={{ paddingTop: 12 }}>
@@ -59,7 +69,9 @@ export default function Contact() {
               </select>
             </div>
             <textarea name="message" value={form.message} onChange={onChange} rows={4} placeholder="Tell us about your plans…" className="field" style={{ resize: 'vertical' }} />
-            <button type="submit" className="btn btn-primary mt-8">Send Message <Send className="w-4 h-4" /></button>
+            <button type="submit" disabled={submitting} className="btn btn-primary mt-8">
+              {submitting ? (<><Loader2 className="w-4 h-4 animate-spin" /> Sending…</>) : (<>Send on WhatsApp <Send className="w-4 h-4" /></>)}
+            </button>
           </form>
         </div>
       </div>

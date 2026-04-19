@@ -1,8 +1,68 @@
+import { useState } from 'react';
 import { ROOMS } from '../data/mock';
-import { Users, MapPin, Mountain, ArrowRight } from 'lucide-react';
+import { Users, MapPin, Mountain, ArrowRight, X, Loader2 } from 'lucide-react';
+import { createEnquiry } from '../lib/api';
 import { toast } from 'sonner';
 
+function BookingModal({ room, onClose }) {
+  const [form, setForm] = useState({ name: '', phone: '', email: '', checkin: '', checkout: '', guests: '2', notes: '' });
+  const [submitting, setSubmitting] = useState(false);
+  const onChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
+
+  const submit = async (e) => {
+    e.preventDefault();
+    if (!form.name || !form.phone) return toast.error('Please share your name and phone.');
+    setSubmitting(true);
+    try {
+      const res = await createEnquiry('booking', { room: room?.name || 'Any', ...form });
+      toast.success('Booking enquiry saved. Opening WhatsApp…');
+      window.open(res.whatsapp_url, '_blank', 'noopener,noreferrer');
+      onClose();
+    } catch { toast.error('Could not submit. Please retry.'); }
+    finally { setSubmitting(false); }
+  };
+
+  return (
+    <div onClick={onClose} className="fixed inset-0 z-[80] flex items-end md:items-center justify-center p-0 md:p-8" style={{ background: 'rgba(20,26,16,.55)', backdropFilter: 'blur(4px)' }}>
+      <form onSubmit={submit} onClick={(e) => e.stopPropagation()} style={{ background: 'var(--bg-cream)', width: '100%', maxWidth: 560, borderRadius: 4, padding: 32 }}>
+        <div className="flex items-center justify-between mb-6">
+          <div>
+            <div className="eyebrow" style={{ color: 'var(--forest)' }}>Farmstay Enquiry</div>
+            <div className="font-display" style={{ fontSize: 28, color: 'var(--deep)', marginTop: 4 }}>{room?.name || 'Book your stay'}</div>
+          </div>
+          <button type="button" onClick={onClose} aria-label="Close" style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: 'var(--deep)' }}><X className="w-5 h-5" /></button>
+        </div>
+        <input name="name" value={form.name} onChange={onChange} placeholder="Full name *" className="field" />
+        <div className="grid grid-cols-2 gap-4">
+          <input name="phone" value={form.phone} onChange={onChange} placeholder="Phone *" className="field" />
+          <input name="email" type="email" value={form.email} onChange={onChange} placeholder="Email" className="field" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <div>
+            <label style={{ fontSize: 11, letterSpacing: '.22em', textTransform: 'uppercase', color: 'var(--muted)' }}>Check-in</label>
+            <input name="checkin" type="date" value={form.checkin} onChange={onChange} className="field" />
+          </div>
+          <div>
+            <label style={{ fontSize: 11, letterSpacing: '.22em', textTransform: 'uppercase', color: 'var(--muted)' }}>Check-out</label>
+            <input name="checkout" type="date" value={form.checkout} onChange={onChange} className="field" />
+          </div>
+          <div>
+            <label style={{ fontSize: 11, letterSpacing: '.22em', textTransform: 'uppercase', color: 'var(--muted)' }}>Guests</label>
+            <input name="guests" type="number" min="1" max="8" value={form.guests} onChange={onChange} className="field" />
+          </div>
+        </div>
+        <textarea name="notes" value={form.notes} onChange={onChange} rows={2} placeholder="Any special requests?" className="field" />
+        <button type="submit" disabled={submitting} className="btn btn-terra mt-6" style={{ width: '100%', justifyContent: 'center' }}>
+          {submitting ? (<><Loader2 className="w-4 h-4 animate-spin" /> Sending…</>) : 'Continue on WhatsApp'}
+        </button>
+      </form>
+    </div>
+  );
+}
+
 export default function Farmstay() {
+  const [modal, setModal] = useState(null);
+
   return (
     <section id="farmstay" className="section" style={{ background: 'var(--deep)', color: '#eee5cf' }}>
       <div className="container-x">
@@ -41,7 +101,7 @@ export default function Farmstay() {
                     <div style={{ color: '#c9b67b', fontSize: 20, fontFamily: 'Cormorant Garamond, serif' }}>{r.price}<span style={{ fontSize: 12, color: '#b7a888' }}> / night</span></div>
                     <div style={{ fontSize: 11, letterSpacing: '.2em', textTransform: 'uppercase', color: '#8f8269', marginTop: 2 }}>{r.guests}</div>
                   </div>
-                  <button onClick={() => toast.success(`${r.name} — checking availability…`)} style={{ background: 'transparent', border: '1px solid #c9b67b', color: '#c9b67b', padding: '9px 16px', borderRadius: 999, fontSize: 11, letterSpacing: '.18em', textTransform: 'uppercase', cursor: 'pointer' }}>Book</button>
+                  <button onClick={() => setModal(r)} style={{ background: 'transparent', border: '1px solid #c9b67b', color: '#c9b67b', padding: '9px 16px', borderRadius: 999, fontSize: 11, letterSpacing: '.18em', textTransform: 'uppercase', cursor: 'pointer' }}>Book</button>
                 </div>
               </div>
             </article>
@@ -49,9 +109,10 @@ export default function Farmstay() {
         </div>
 
         <div className="text-center mt-14 reveal">
-          <a href="#contact" className="btn btn-terra">Check Availability <ArrowRight className="w-4 h-4" /></a>
+          <button onClick={() => setModal({ name: 'Any room' })} className="btn btn-terra">Check Availability <ArrowRight className="w-4 h-4" /></button>
         </div>
       </div>
+      {modal && <BookingModal room={modal} onClose={() => setModal(null)} />}
     </section>
   );
 }
