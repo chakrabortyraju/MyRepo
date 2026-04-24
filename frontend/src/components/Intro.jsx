@@ -6,7 +6,7 @@ export default function Intro() {
       <div className="container-x">
         <div className="grid md:grid-cols-12 gap-14 items-start">
           <div className="md:col-span-5 reveal">
-            <div className="eyebrow mb-4">{BRAND.name} · {BRAND.est}</div>
+            <div className="eyebrow mb-4">{BRAND.name}</div>
             <h2 className="section-title">A small, sustainable homestead in the lower Himalayas.</h2>
           </div>
           <div className="md:col-span-7 reveal" style={{ transitionDelay: '.1s' }}>
