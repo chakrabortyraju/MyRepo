@@ -77,7 +77,7 @@ export const PRODUCT_CATEGORIES = [
     id: 'pooja',
     name: 'Sacred Pooja Collection',
     blurb: 'Cow-dung cups, flower-residue agarbatti, hawan samagri, organic idols, and biodegradable rituals.',
-    img: 'https://images.pexels.com/photos/11798036/pexels-photo-11798036.jpeg',
+    img: 'https://images.pexels.com/photos/37116934/pexels-photo-37116934.jpeg',
     icon: 'Flame',
   },
 ];

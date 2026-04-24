@@ -16,6 +16,7 @@ import Footer from '../components/Footer';
 
 export default function Home() {
   useEffect(() => {
+    document.title = 'Phagoli — Pure · Organic · Luxurious Living';
     const io = new IntersectionObserver(
       (entries) => entries.forEach((e) => e.isIntersecting && e.target.classList.add('in')),
       { threshold: 0.12 }
