@@ -37,9 +37,9 @@ SEED_PRODUCTS: List[Dict] = [
     {"category_id": "specialties", "name": "Cold-Pressed Mustard Oil", "description": "Wood-pressed kachi ghani mustard oil \u2014 pungent and nutty.", "price": 320, "unit": "1 litre", "image": "https://images.unsplash.com/photo-1553787434-45e1d245bfbb"},
 
     # POOJA
-    {"category_id": "pooja", "name": "Cow-Dung Dhoop Cups", "description": "Dried desi cow-dung cups for hawan and daily pooja \u2014 zero chemicals.", "price": 180, "unit": "12 pieces", "image": "https://images.pexels.com/photos/11798036/pexels-photo-11798036.jpeg"},
-    {"category_id": "pooja", "name": "Flower-Residue Agarbatti", "description": "Incense sticks hand-rolled from temple flower waste. Slow, fragrant burn.", "price": 120, "unit": "50 sticks", "image": "https://images.pexels.com/photos/11798036/pexels-photo-11798036.jpeg"},
-    {"category_id": "pooja", "name": "Traditional Hawan Samagri", "description": "Nineteen-herb hawan mix blended with local resins and ghee.", "price": 280, "unit": "500 g", "image": "https://images.pexels.com/photos/11798036/pexels-photo-11798036.jpeg"},
-    {"category_id": "pooja", "name": "Biodegradable Clay Idols", "description": "Handcrafted eco-friendly idols that dissolve in water without harming soil.", "price": 450, "unit": "each", "image": "https://images.pexels.com/photos/11798036/pexels-photo-11798036.jpeg"},
-    {"category_id": "pooja", "name": "Pure Ganga Jal", "description": "Sourced from the upper Ganga at Gomukh \u2014 sealed in copper-tinted glass.", "price": 220, "unit": "500 ml", "image": "https://images.pexels.com/photos/11798036/pexels-photo-11798036.jpeg"},
+    {"category_id": "pooja", "name": "Cow-Dung Dhoop Cups", "description": "Dried desi cow-dung cups for hawan and daily pooja \u2014 zero chemicals.", "price": 180, "unit": "12 pieces", "image": "https://images.pexels.com/photos/37038407/pexels-photo-37038407.jpeg"},
+    {"category_id": "pooja", "name": "Flower-Residue Agarbatti", "description": "Incense sticks hand-rolled from temple flower waste. Slow, fragrant burn.", "price": 120, "unit": "50 sticks", "image": "https://images.pexels.com/photos/7351728/pexels-photo-7351728.jpeg"},
+    {"category_id": "pooja", "name": "Traditional Hawan Samagri", "description": "Nineteen-herb hawan mix blended with local resins and ghee.", "price": 280, "unit": "500 g", "image": "https://images.pexels.com/photos/37116934/pexels-photo-37116934.jpeg"},
+    {"category_id": "pooja", "name": "Biodegradable Clay Idols", "description": "Handcrafted eco-friendly idols that dissolve in water without harming soil.", "price": 450, "unit": "each", "image": "https://images.unsplash.com/photo-1763475944771-702683b1b42c"},
+    {"category_id": "pooja", "name": "Pure Ganga Jal", "description": "Sourced from the upper Ganga at Gomukh \u2014 sealed in copper-tinted glass.", "price": 220, "unit": "500 ml", "image": "https://images.unsplash.com/photo-1764304589223-30bfbfdaa9ef"},
 ]
