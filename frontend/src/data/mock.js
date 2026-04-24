@@ -25,7 +25,7 @@ export const HERO_SLIDES = [
     img: 'https://images.unsplash.com/photo-1706628416807-7994b12d64f8',
     eyebrow: 'Reconnect with nature',
     title: 'A Song in Stone',
-    subtitle: 'Sustainable homestay nestled in the lower Himalayas, 15 km from Nainital.',
+    subtitle: 'Sustainable homestay nestled in the lower Himalayas, 3 km from Shimla Airport.',
     cta: 'Check Availability',
   },
   {
