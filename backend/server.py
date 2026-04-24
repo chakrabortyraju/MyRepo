@@ -22,8 +22,8 @@ mongo_url = os.environ['MONGO_URL']
 client = AsyncIOMotorClient(mongo_url)
 db = client[os.environ['DB_NAME']]
 
-WHATSAPP_NUMBER = os.environ.get('WHATSAPP_NUMBER', '919999996287')
-WHATSAPP_DISPLAY = '+91 99999 96287'
+WHATSAPP_NUMBER = os.environ.get('WHATSAPP_NUMBER', '919210381022')
+WHATSAPP_DISPLAY = '+91 92103 81022'
 
 app = FastAPI()
 api = APIRouter(prefix="/api")

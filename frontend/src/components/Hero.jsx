@@ -29,7 +29,7 @@ export default function Hero() {
               <a href="#farmstay" className="btn btn-terra">
                 {HERO_SLIDES[active].cta} <ArrowRight className="w-4 h-4" />
               </a>
-              <a href="#products" className="btn btn-ghost">Shop Microlots</a>
+              <a href="#products" className="btn btn-ghost">Shop Fresh Mountain Produces</a>
             </div>
           </div>
         </div>

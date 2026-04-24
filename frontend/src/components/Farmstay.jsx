@@ -80,9 +80,9 @@ export default function Farmstay() {
               celebrates simple living and minimalist charm. Three bespoke rooms, eight guests at most, one forest.
             </p>
             <div className="mt-8 grid grid-cols-3 gap-6" style={{ fontSize: 13 }}>
-              <div className="flex items-start gap-3"><MapPin className="w-4 h-4 mt-1" style={{ color: '#c9b67b' }} /><span>15 km from Nainital, in the Kumaon Himalayas</span></div>
+              <div className="flex items-start gap-3"><MapPin className="w-4 h-4 mt-1" style={{ color: '#c9b67b' }} /><span>3 km from Shimla Airport, in the lower hills of Himalayas</span></div>
               <div className="flex items-start gap-3"><Mountain className="w-4 h-4 mt-1" style={{ color: '#c9b67b' }} /><span>~5,000 ft altitude, surrounded by forest</span></div>
-              <div className="flex items-start gap-3"><Users className="w-4 h-4 mt-1" style={{ color: '#c9b67b' }} /><span>Max 8 guests — personal &amp; intimate</span></div>
+              <div className="flex items-start gap-3"><Users className="w-4 h-4 mt-1" style={{ color: '#c9b67b' }} /><span>Max 8 guests</span></div>
             </div>
           </div>
         </div>
@@ -101,7 +101,16 @@ export default function Farmstay() {
                     <div style={{ color: '#c9b67b', fontSize: 20, fontFamily: 'Cormorant Garamond, serif' }}>{r.price}<span style={{ fontSize: 12, color: '#b7a888' }}> / night</span></div>
                     <div style={{ fontSize: 11, letterSpacing: '.2em', textTransform: 'uppercase', color: '#8f8269', marginTop: 2 }}>{r.guests}</div>
                   </div>
-                  <button onClick={() => setModal(r)} style={{ background: 'transparent', border: '1px solid #c9b67b', color: '#c9b67b', padding: '9px 16px', borderRadius: 999, fontSize: 11, letterSpacing: '.18em', textTransform: 'uppercase', cursor: 'pointer' }}>Book</button>
+                  {r.name === 'The Barbet Suite' ? (
+                    <span
+                      aria-disabled="true"
+                      style={{ background: 'transparent', border: '1px solid #6b6451', color: '#8f8269', padding: '9px 16px', borderRadius: 999, fontSize: 11, letterSpacing: '.18em', textTransform: 'uppercase', cursor: 'not-allowed' }}
+                    >
+                      Booking Closed
+                    </span>
+                  ) : (
+                    <button onClick={() => setModal(r)} style={{ background: 'transparent', border: '1px solid #c9b67b', color: '#c9b67b', padding: '9px 16px', borderRadius: 999, fontSize: 11, letterSpacing: '.18em', textTransform: 'uppercase', cursor: 'pointer' }}>Book</button>
+                  )}
                 </div>
               </div>
             </article>

@@ -11,10 +11,10 @@ export default function Intro() {
           </div>
           <div className="md:col-span-7 reveal" style={{ transitionDelay: '.1s' }}>
             <p className="section-lead">
-              Born in a remote mountain hamlet near Nainital, Faguni is powered by solar energy
-              and guided by a simple idea: to live in harmony with nature, and to share that journey
+              Born in a remote mountain hamlet near Shimla Airport, Phagoli is powered by clean mountain energy
+              and guided by a simple idea: to live in harmony with nature and to share the journey
               with others. Over time, we have grown into a collection of interconnected experiences
-              — a farmstay, a permaculture farm, a microlot shop, and a foundation — each rooted
+              — a farmstay, a permaculture farm, a fresh mountain produce — each rooted
               in sustainability, simplicity, and mindful living.
             </p>
             <div className="mt-10 grid grid-cols-2 gap-8">
@@ -22,7 +22,7 @@ export default function Intro() {
                 { k: '285 km', v: 'From New Delhi' },
                 { k: '~6 hrs', v: 'Driving time' },
                 { k: '100+ spp', v: 'Birds & butterflies' },
-                { k: '100%', v: 'Solar-powered' },
+                { k: '100%', v: 'Organic' },
               ].map((s, i) => (
                 <div key={i} className="reveal" style={{ transitionDelay: `${0.15 + i * 0.08}s` }}>
                   <div className="font-display" style={{ fontSize: 38, color: 'var(--forest)' }}>{s.k}</div>

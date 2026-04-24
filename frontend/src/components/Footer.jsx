@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
         <div style={{ borderTop: '1px solid #3e4d35', marginTop: 56, paddingTop: 24, display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', gap: 16, fontSize: 12, color: '#8f8269', letterSpacing: '.12em', textTransform: 'uppercase' }}>
           <span>© {new Date().getFullYear()} {BRAND.name}. All rights reserved.</span>
-          <span>Solar-powered · Permaculture Certified · {BRAND.est}</span>
+          <span>Organic · Permaculture Certified · Handcrafted with care</span>
         </div>
       </div>
     </footer>

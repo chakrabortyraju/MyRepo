@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import Intro from '../components/Intro';
 import Products from '../components/Products';
 import Experiences from '../components/Experiences';
+import GatewayActivities from '../components/GatewayActivities';
 import Farmstay from '../components/Farmstay';
 import Food from '../components/Food';
 import Impact from '../components/Impact';
@@ -30,6 +31,7 @@ export default function Home() {
       <Intro />
       <Products />
       <Experiences />
+      <GatewayActivities />
       <Farmstay />
       <Food />
       <Impact />

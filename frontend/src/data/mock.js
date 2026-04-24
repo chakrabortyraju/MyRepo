@@ -3,10 +3,10 @@
 export const BRAND = {
   name: 'Phagoli',
   tagline: 'Pure · Organic · Luxurious Living',
-  est: 'ESTD 2017',
-  phone: '+91 7838 739 116',
-  email: 'hello@phagoli.in',
-  address: 'Chandela Village, Uttarakhand, India',
+  est: 'ESTD 2026',
+  phone: '+91 92103 81022',
+  email: 'support@phagoli.com',
+  address: 'Phagoli Village, Shimla, Himachal Pradesh, India',
 };
 
 export const NAV_LINKS = [
@@ -14,6 +14,7 @@ export const NAV_LINKS = [
   { label: 'Farmstay', href: '#farmstay' },
   { label: 'Products', href: '#products' },
   { label: 'Experiences', href: '#experiences' },
+  { label: 'Activities', href: '#activities' },
   { label: 'Our Story', href: '#story' },
   { label: 'Journal', href: '#journal' },
   { label: 'Contact', href: '#contact' },
@@ -37,8 +38,8 @@ export const HERO_SLIDES = [
   {
     img: 'https://images.unsplash.com/photo-1622908382850-34730895ccbb',
     eyebrow: 'Exquisite & Bespoke Rooms',
-    title: 'Stay in a Kumaoni Home',
-    subtitle: 'Rustic stone cottages, solar-powered, and surrounded by forest.',
+    title: 'Stay in Serene Himachali Gateway',
+    subtitle: 'Rustic stone cottages with 360 degree panoramic views, surrounded by deep hilly forest.',
     cta: 'Explore Rooms',
   },
 ];
@@ -47,16 +48,9 @@ export const PRODUCT_CATEGORIES = [
   {
     id: 'dairy',
     name: 'Premium Dairy Collection',
-    blurb: 'Fresh organic milk, artisanal ghee, creamy paneer, and probiotic-rich curd from grass-fed desi cows.',
+    blurb: 'Fresh organic milk, artisanal ghee, creamy paneer, and probiotic-rich curd from grass-fed free range Desi Cows.',
     img: 'https://images.unsplash.com/photo-1569858241634-5aee6e47091a',
     icon: 'Milk',
-  },
-  {
-    id: 'poultry',
-    name: 'Free-Range Poultry',
-    blurb: 'Farm-fresh eggs and desi chicken from birds raised in natural, stress-free environments.',
-    img: 'https://images.unsplash.com/photo-1553531009-c4605f302b47',
-    icon: 'Egg',
   },
   {
     id: 'produce',
@@ -93,7 +87,7 @@ export const EXPERIENCES = [
     id: 'farmstay',
     icon: 'Home',
     title: 'Luxury Farm Stay',
-    desc: 'Immerse your family in authentic rural life with comfortable accommodations, farm-to-table meals and hands-on activities.',
+    desc: 'Stay with your family in a Himachali rural life with comfortable accommodations, farm-to-table meals and hands-on activities.',
     img: 'https://images.unsplash.com/photo-1592965799290-4a4efc591de9',
     tag: 'From ₹6,500 / night',
   },
@@ -109,7 +103,7 @@ export const EXPERIENCES = [
     id: 'work',
     icon: 'Laptop',
     title: 'Luxury Work Retreat',
-    desc: 'Combine productivity with wellness — high-speed Wi-Fi, organic meals, and inspiring natural surroundings.',
+    desc: 'Combine productivity with wellness — high-speed Wi-Fi/LAN, comfortable seating with 360 degree glass panoramic views, organic meals, and inspiring natural surroundings.',
     img: 'https://images.unsplash.com/photo-1744104135578-6768f2061be1',
     tag: 'Weekly & monthly stays',
   },
@@ -119,7 +113,7 @@ export const EXPERIENCES = [
     title: 'Master Classes & Workshops',
     desc: 'Hands-on workshops in mushroom cultivation, vermicomposting, permaculture design and organic farming.',
     img: 'https://images.pexels.com/photos/27219984/pexels-photo-27219984.jpeg',
-    tag: 'Weekend intensives',
+    tag: 'Weekend activities',
   },
 ];
 
