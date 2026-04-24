@@ -36,7 +36,7 @@ export const HERO_SLIDES = [
     cta: 'Visit The Farm',
   },
   {
-    img: 'https://images.unsplash.com/photo-1622908382850-34730895ccbb',
+    img: 'https://customer-assets.emergentagent.com/job_agro-store-10/artifacts/jzosdbqf_360.jpeg',
     eyebrow: 'Exquisite & Bespoke Rooms',
     title: 'Stay in Serene Himachali Gateway',
     subtitle: 'Rustic stone cottages with 360 degree panoramic views, surrounded by deep hilly forest.',
@@ -56,7 +56,7 @@ export const PRODUCT_CATEGORIES = [
     id: 'produce',
     name: 'Fresh Organic Produce',
     blurb: 'Seasonal vegetables, exotic mushrooms, nutrient-dense microgreens, and tree-ripened fruits.',
-    img: 'https://images.unsplash.com/photo-1741515043161-e97d05e5cfcc',
+    img: 'https://images.unsplash.com/photo-1683688684067-b87a189c7503',
     icon: 'Leaf',
   },
   {
@@ -70,7 +70,7 @@ export const PRODUCT_CATEGORIES = [
     id: 'specialties',
     name: 'Luxury Artisan Specialties',
     blurb: 'Raw honey, herbal blends, organic camphor, traditional pickles, and eco-friendly essentials.',
-    img: 'https://images.unsplash.com/photo-1553787434-45e1d245bfbb',
+    img: 'https://images.unsplash.com/photo-1761416351532-ede97c29fab8',
     icon: 'Candy',
   },
   {
@@ -184,21 +184,21 @@ export const ROOMS = [
   {
     name: 'The Barbet Suite',
     desc: 'Spacious stone-walled suite with a private terrace, valley views and a reading nook.',
-    img: 'https://images.unsplash.com/photo-1622908382850-34730895ccbb',
+    img: 'https://images.pexels.com/photos/17782574/pexels-photo-17782574.jpeg',
     price: '₹9,500',
     guests: '2 Adults + 1 Child',
   },
   {
     name: 'The Kafal Cottage',
     desc: 'Cozy wood-beamed room opening onto the forest — perfect for a quiet, slow weekend.',
-    img: 'https://images.unsplash.com/photo-1592965799290-4a4efc591de9',
+    img: 'https://images.unsplash.com/photo-1647604073429-049b4495720b',
     price: '₹7,200',
     guests: '2 Adults',
   },
   {
     name: 'The Attic Retreat',
     desc: 'A little attic gem tucked away with skylight stars, ideal for solo travellers and couples.',
-    img: 'https://images.pexels.com/photos/27219984/pexels-photo-27219984.jpeg',
+    img: 'https://images.unsplash.com/photo-1608033223866-797b8dad7ca6',
     price: '₹6,500',
     guests: '2 Adults',
   },

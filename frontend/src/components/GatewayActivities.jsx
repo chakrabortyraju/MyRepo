@@ -37,18 +37,31 @@ export default function GatewayActivities() {
   return (
     <section id="activities" className="section" style={{ background: 'var(--bg-cream)' }}>
       <div className="container-x">
-        <div className="grid md:grid-cols-12 gap-12 items-end mb-14">
-          <div className="md:col-span-6 reveal">
+        <div className="grid md:grid-cols-12 gap-10 items-stretch mb-14">
+          <div className="md:col-span-5 reveal flex flex-col justify-end">
             <div className="eyebrow mb-4">Gateway Experiences</div>
             <h2 className="section-title">
               Activities woven into<br />
               <em className="font-italic" style={{ color: 'var(--forest)' }}>the mountain</em>.
             </h2>
-          </div>
-          <div className="md:col-span-6 reveal" style={{ transitionDelay: '.08s' }}>
-            <p className="section-lead">
+            <p className="section-lead mt-6">
               A curated list of experiences that come with your stay at Phagoli — each one grounded in the land, the water, and the quiet rhythm of Himachal.
             </p>
+          </div>
+          <div className="md:col-span-7 reveal" style={{ transitionDelay: '.1s' }}>
+            <div style={{ position: 'relative', overflow: 'hidden', borderRadius: 4, aspectRatio: '16/11', height: '100%' }}>
+              <img
+                src="https://customer-assets.emergentagent.com/job_agro-store-10/artifacts/3itm8z8q_mill.jpeg"
+                alt="Ancient watermill — water-churned stone mill grinding wheat"
+                loading="lazy"
+                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+              />
+              <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(31,42,28,0) 55%, rgba(31,42,28,.85) 100%)' }} />
+              <div style={{ position: 'absolute', left: 28, right: 28, bottom: 24, color: '#f7f1e3' }}>
+                <div style={{ fontSize: 11, letterSpacing: '.28em', textTransform: 'uppercase', color: '#c9d6b4' }}>Signature</div>
+                <div className="font-display" style={{ fontSize: 28, lineHeight: 1.2, marginTop: 4 }}>The old watermill, still turning.</div>
+              </div>
+            </div>
           </div>
         </div>
 

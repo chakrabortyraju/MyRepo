@@ -7,7 +7,7 @@ export default function Food() {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="reveal">
             <div style={{ position: 'relative', overflow: 'hidden', borderRadius: 4 }}>
-              <img src="https://images.pexels.com/photos/30448528/pexels-photo-30448528.jpeg" alt="Rustic kitchen" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover', aspectRatio: '4/5' }} />
+              <img src="https://images.pexels.com/photos/25440306/pexels-photo-25440306.jpeg" alt="Pahadi thali" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover', aspectRatio: '4/5' }} />
             </div>
           </div>
           <div className="reveal" style={{ transitionDelay: '.1s' }}>
