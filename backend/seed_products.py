@@ -12,27 +12,25 @@ SEED_PRODUCTS: List[Dict] = [
     # PRODUCE
     {"category_id": "produce", "name": "Seasonal Veg Basket", "description": "A curated 5 kg basket of 6\u20138 seasonal organic vegetables from our permaculture plots.", "price": 650, "unit": "5 kg basket", "image": "https://images.unsplash.com/photo-1631021967261-c57ee4dfa9bb"},
     {"category_id": "produce", "name": "Salad Microgreens", "description": "Freshly snipped microgreens \u2014 sunflower, pea shoots, radish, broccoli.", "price": 180, "unit": "100 g", "image": "https://images.unsplash.com/photo-1535734668010-da0c7d3085f2"},
-    {"category_id": "produce", "name": "Forest Mushroom Mix", "description": "Oyster, shiitake & button mushrooms grown in our shaded log bins.", "price": 280, "unit": "500 g", "image": "https://images.unsplash.com/photo-1542913235-1f46ce06443d"},
     {"category_id": "produce", "name": "Tree-Ripened Fruit Box", "description": "Whatever is ripe on the tree \u2014 plums, peaches, pears, malta oranges.", "price": 550, "unit": "3 kg box", "image": "https://images.unsplash.com/photo-1668029407328-4cba9084c3a4"},
     {"category_id": "produce", "name": "Heirloom Tomatoes", "description": "Open-pollinated heirloom varieties \u2014 tangy, sweet, for salads.", "price": 180, "unit": "1 kg", "image": "https://images.pexels.com/photos/32570774/pexels-photo-32570774.jpeg"},
 
     # GRAINS
-    {"category_id": "grains", "name": "Stone-Ground Wheat Atta", "description": "Sharbati wheat, stone-milled weekly. Retains bran & germ.", "price": 450, "unit": "5 kg", "image": "https://images.unsplash.com/photo-1627735483792-233bf632619b"},
-    {"category_id": "grains", "name": "Aromatic Basmati Rice", "description": "Long-grain aged basmati from Himachali valleys \u2014 fragrant, fluffy.", "price": 700, "unit": "5 kg", "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c"},
+    {"category_id": "grains", "name": "Stone-Ground Wheat Atta", "description": "Sharbati wheat, stone-milled weekly. Retains bran & germ.", "price": 450, "unit": "5 kg", "image": "https://images.unsplash.com/photo-1627485937980-221c88ac04f9"},
     {"category_id": "grains", "name": "Mandua (Ragi) Flour", "description": "Pahadi finger millet flour \u2014 earthy, rich in calcium.", "price": 180, "unit": "1 kg", "image": "https://images.unsplash.com/photo-1768729339998-909158957162"},
-    {"category_id": "grains", "name": "Black Desi Chickpeas", "description": "Kala chana \u2014 unpolished, protein-rich, heritage variety.", "price": 220, "unit": "1 kg", "image": "https://images.unsplash.com/photo-1644432757699-bb5a01e8fb0e"},
+    {"category_id": "grains", "name": "Black Desi Chickpeas", "description": "Kala chana \u2014 unpolished, protein-rich, heritage variety.", "price": 220, "unit": "1 kg", "image": "https://images.unsplash.com/photo-1622948765111-7ba69778cbdb"},
     {"category_id": "grains", "name": "Gahat (Horse Gram)", "description": "Pahadi gahat dal \u2014 protein powerhouse used in parathas & soups.", "price": 240, "unit": "1 kg", "image": "https://images.unsplash.com/photo-1763368392508-3d4bddfdd20a"},
 
     # SPECIALTIES
     {"category_id": "specialties", "name": "Raw Forest Honey", "description": "Wild, unfiltered honey from our hives on the forest edge. Crystallises naturally.", "price": 650, "unit": "500 g", "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924"},
-    {"category_id": "specialties", "name": "Himalayan Herbal Tea", "description": "Blend of tulsi, lemongrass, rose petals and mint from our garden.", "price": 280, "unit": "100 g", "image": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f"},
+    {"category_id": "specialties", "name": "Himalayan Herbal Tea", "description": "Blend of tulsi, lemongrass, rose petals and mint from our garden.", "price": 280, "unit": "100 g", "image": "https://images.unsplash.com/photo-1653937855510-ec3fd2036d98"},
     {"category_id": "specialties", "name": "Pahadi Mixed Pickle", "description": "Traditional achaar \u2014 galgal aam, nibu, tomato, chilli and seasonal adrak gajar achar.", "price": 240, "unit": "250 g jar", "image": "https://images.unsplash.com/photo-1553787434-45e1d245bfbb"},
     {"category_id": "specialties", "name": "Organic Camphor Wafers", "description": "Bhimseni camphor \u2014 pure, crystalline, for pooja and aroma.", "price": 300, "unit": "50 g", "image": "https://images.unsplash.com/photo-1540322112357-ebf4f8bfa63c"},
     {"category_id": "specialties", "name": "Cold-Pressed Mustard Oil", "description": "Wood-pressed kachi ghani mustard oil \u2014 pungent and nutty.", "price": 320, "unit": "1 litre", "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5"},
 
     # POOJA (Pure Ganga Jal removed per request)
-    {"category_id": "pooja", "name": "Cow-Dung Dhoop Cups", "description": "Dried desi cow-dung cups for hawan and daily pooja \u2014 zero chemicals.", "price": 180, "unit": "12 pieces", "image": "https://images.pexels.com/photos/37038407/pexels-photo-37038407.jpeg"},
-    {"category_id": "pooja", "name": "Flower-Residue Agarbatti", "description": "Incense sticks hand-rolled from temple flower waste. Slow, fragrant burn.", "price": 120, "unit": "50 sticks", "image": "https://images.pexels.com/photos/7351728/pexels-photo-7351728.jpeg"},
+    {"category_id": "pooja", "name": "Cow-Dung Dhoop Cups", "description": "Dried desi cow-dung cups for hawan and daily pooja \u2014 zero chemicals.", "price": 180, "unit": "12 pieces", "image": "https://images.unsplash.com/photo-1639390167093-9c62311fe84d"},
+    {"category_id": "pooja", "name": "Flower-Residue Agarbatti", "description": "Incense sticks hand-rolled from temple flower waste. Slow, fragrant burn.", "price": 120, "unit": "50 sticks", "image": "https://images.unsplash.com/photo-1599030032319-d78295597e0d"},
     {"category_id": "pooja", "name": "Traditional Hawan Samagri", "description": "Nineteen-herb hawan mix blended with local resins and ghee.", "price": 280, "unit": "500 g", "image": "https://images.pexels.com/photos/37116934/pexels-photo-37116934.jpeg"},
-    {"category_id": "pooja", "name": "Biodegradable Clay Idols", "description": "Handcrafted eco-friendly idols that dissolve in water without harming soil.", "price": 450, "unit": "each", "image": "https://images.unsplash.com/photo-1763475944771-702683b1b42c"},
+    {"category_id": "pooja", "name": "Biodegradable Clay Idols", "description": "Handcrafted eco-friendly idols that dissolve in water without harming soil.", "price": 450, "unit": "each", "image": "https://images.pexels.com/photos/33626434/pexels-photo-33626434.jpeg"},
 ]
