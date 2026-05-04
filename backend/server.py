@@ -181,15 +181,31 @@ async def create_enquiry(payload: EnquiryCreate):
     return {"id": doc["id"], "whatsapp_url": whatsapp_url}
 
 
-# ---------- Startup: seed products ----------
+# ---------- Startup: sync products from seed to DB ----------
 @app.on_event("startup")
 async def seed_on_startup():
+    """Idempotent sync: upsert every seed product (by name) and remove any product not in the seed.
+    Runs on every deployment so production catalog always mirrors seed_products.py."""
     try:
-        count = await db.products.count_documents({})
-        if count == 0:
-            docs = []
-            for p in SEED_PRODUCTS:
-                docs.append({
+        seed_names = set()
+        for p in SEED_PRODUCTS:
+            seed_names.add(p["name"])
+            existing = await db.products.find_one({"name": p["name"]})
+            if existing:
+                # Update mutable fields
+                await db.products.update_one(
+                    {"name": p["name"]},
+                    {"$set": {
+                        "category_id": p["category_id"],
+                        "description": p["description"],
+                        "price": p["price"],
+                        "unit": p["unit"],
+                        "image": p["image"],
+                        "in_stock": True,
+                    }}
+                )
+            else:
+                await db.products.insert_one({
                     "id": str(uuid.uuid4()),
                     "category_id": p["category_id"],
                     "name": p["name"],
@@ -200,11 +216,11 @@ async def seed_on_startup():
                     "in_stock": True,
                     "created_at": datetime.now(timezone.utc),
                 })
-            if docs:
-                await db.products.insert_many(docs)
-                logger.info(f"Seeded {len(docs)} products")
+        # Remove products that aren't in seed anymore
+        del_result = await db.products.delete_many({"name": {"$nin": list(seed_names)}})
+        logger.info(f"Catalog sync complete \u2014 {len(seed_names)} products active, {del_result.deleted_count} stale removed")
     except Exception as e:
-        logger.error(f"Seed failed: {e}")
+        logger.error(f"Catalog sync failed: {e}")
 
 
 app.include_router(api)
