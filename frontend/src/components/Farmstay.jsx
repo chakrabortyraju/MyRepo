@@ -76,7 +76,7 @@ export default function Farmstay() {
           </div>
           <div className="md:col-span-7 reveal" style={{ transitionDelay: '.1s' }}>
             <p style={{ fontSize: 17, lineHeight: 1.8, color: '#d9cdb2' }}>
-              Built stone by stone by a local Kumaoni farmer, Phagoli Farmstay is our rustic mountain home that
+              Built stone by stone by a local Himachali farmer, Phagoli Farmstay is our rustic mountain home that
               celebrates simple living and minimalist charm. Three bespoke rooms, eight guests at most, one forest.
             </p>
             <div className="mt-8 grid grid-cols-3 gap-6" style={{ fontSize: 13 }}>

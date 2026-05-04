@@ -21,7 +21,7 @@ export default function Food() {
             <div className="mt-10 space-y-6">
               {[
                 { icon: ChefHat, title: 'Fixed meal system', body: 'Three wholesome meals daily. No à la carte or room service — just good, mindful food.' },
-                { icon: Wheat, title: 'Stone-ground &amp; seasonal', body: 'Pahadi gahat dal paranthas, madua rotis, seasonal sabzis, and surprise desserts.' },
+                { icon: Wheat, title: 'Stone-ground &amp; seasonal', body: 'Pahadi gahat dal paranthas, makki ki rotis, jau ki roti, seasonal sabzis, and surprise desserts.' },
                 { icon: Soup, title: 'Wood-fired specials', body: 'Neapolitan pizzas from our handcrafted Tuscan-style oven, reserved on request.' },
               ].map((it, i) => (
                 <div key={i} className="flex items-start gap-4">

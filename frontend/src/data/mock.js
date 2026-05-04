@@ -22,14 +22,14 @@ export const NAV_LINKS = [
 
 export const HERO_SLIDES = [
   {
-    img: 'https://images.unsplash.com/photo-1706628416807-7994b12d64f8',
+    img: 'https://customer-assets.emergentagent.com/job_agro-store-10/artifacts/2for49vr_Song%20in%20Stone.jpeg',
     eyebrow: 'Reconnect with nature',
     title: 'A Song in Stone',
     subtitle: 'Sustainable homestay nestled in the lower Himalayas, 3 km from Shimla Airport.',
     cta: 'Check Availability',
   },
   {
-    img: 'https://images.unsplash.com/photo-1651478880955-38850da0870d',
+    img: 'https://customer-assets.emergentagent.com/job_agro-store-10/artifacts/u3i10hf7_Permaculture%20Practice.jpeg',
     eyebrow: 'Towards a sustainable homestead',
     title: 'Permaculture Practice',
     subtitle: 'Food grown the way nature intended — seasonal, regenerative, alive.',
@@ -49,13 +49,13 @@ export const PRODUCT_CATEGORIES = [
     id: 'dairy',
     name: 'Premium Dairy Collection',
     blurb: 'Fresh organic milk, artisanal ghee, creamy paneer, and probiotic-rich curd from grass-fed free range Desi Cows.',
-    img: 'https://images.unsplash.com/photo-1569858241634-5aee6e47091a',
+    img: 'https://customer-assets.emergentagent.com/job_agro-store-10/artifacts/h0dn6qwr_Premium%20Dairy%20Collection.jpeg',
     icon: 'Milk',
   },
   {
     id: 'produce',
     name: 'Fresh Organic Produce',
-    blurb: 'Seasonal vegetables, exotic mushrooms, nutrient-dense microgreens, and tree-ripened fruits.',
+    blurb: 'Seasonal vegetables, sunflower and malta with guava, galgal, and khata.',
     img: 'https://images.unsplash.com/photo-1683688684067-b87a189c7503',
     icon: 'Leaf',
   },
@@ -69,7 +69,7 @@ export const PRODUCT_CATEGORIES = [
   {
     id: 'specialties',
     name: 'Luxury Artisan Specialties',
-    blurb: 'Raw honey, herbal blends, organic camphor, traditional pickles, and eco-friendly essentials.',
+    blurb: 'Raw honey, herbal tea, organic camphor wafers, Pahadi mixed pickles, and eco-friendly essentials.',
     img: 'https://images.unsplash.com/photo-1761416351532-ede97c29fab8',
     icon: 'Candy',
   },
@@ -77,7 +77,7 @@ export const PRODUCT_CATEGORIES = [
     id: 'pooja',
     name: 'Sacred Pooja Collection',
     blurb: 'Cow-dung cups, flower-residue agarbatti, hawan samagri, organic idols, and biodegradable rituals.',
-    img: 'https://images.pexels.com/photos/37116934/pexels-photo-37116934.jpeg',
+    img: 'https://customer-assets.emergentagent.com/job_agro-store-10/artifacts/tl2a2zeb_Sacred%20Pooja%20Collection.jpeg',
     icon: 'Flame',
   },
 ];
@@ -111,7 +111,7 @@ export const EXPERIENCES = [
     id: 'masterclass',
     icon: 'GraduationCap',
     title: 'Master Classes & Workshops',
-    desc: 'Hands-on workshops in mushroom cultivation, vermicomposting, permaculture design and organic farming.',
+    desc: 'Hands-on workshops on cultivation, vermicomposting, permaculture design and organic farming.',
     img: 'https://images.pexels.com/photos/27219984/pexels-photo-27219984.jpeg',
     tag: 'Weekend activities',
   },

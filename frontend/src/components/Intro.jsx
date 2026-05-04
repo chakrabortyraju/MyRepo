@@ -11,10 +11,10 @@ export default function Intro() {
           </div>
           <div className="md:col-span-7 reveal" style={{ transitionDelay: '.1s' }}>
             <p className="section-lead">
-              Born in a remote mountain hamlet near Shimla Airport, Phagoli is powered by clean mountain energy
+              Born in a remote mountain hamlet, near Shimla Airport, Phagoli is powered by clean mountain energy
               and guided by a simple idea: to live in harmony with nature and to share the journey
               with others. Over time, we have grown into a collection of interconnected experiences
-              — a farmstay, a permaculture farm, a fresh mountain produce — each rooted
+              — a farmstay, a permaculture farm, fresh mountain produce — each rooted
               in sustainability, simplicity, and mindful living.
             </p>
             <div className="mt-10 grid grid-cols-2 gap-8">
