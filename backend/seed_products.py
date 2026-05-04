@@ -18,19 +18,19 @@ SEED_PRODUCTS: List[Dict] = [
     # GRAINS
     {"category_id": "grains", "name": "Stone-Ground Wheat Atta", "description": "Sharbati wheat, stone-milled weekly. Retains bran & germ.", "price": 450, "unit": "5 kg", "image": "https://images.unsplash.com/photo-1627485937980-221c88ac04f9"},
     {"category_id": "grains", "name": "Mandua (Ragi) Flour", "description": "Pahadi finger millet flour \u2014 earthy, rich in calcium.", "price": 180, "unit": "1 kg", "image": "https://images.unsplash.com/photo-1768729339998-909158957162"},
-    {"category_id": "grains", "name": "Black Desi Chickpeas", "description": "Kala chana \u2014 unpolished, protein-rich, heritage variety.", "price": 220, "unit": "1 kg", "image": "https://images.unsplash.com/photo-1622948765111-7ba69778cbdb"},
+    {"category_id": "grains", "name": "Black Desi Chickpeas", "description": "Kala chana \u2014 unpolished, protein-rich, heritage variety.", "price": 220, "unit": "1 kg", "image": "https://images.pexels.com/photos/368689/pexels-photo-368689.jpeg"},
     {"category_id": "grains", "name": "Gahat (Horse Gram)", "description": "Pahadi gahat dal \u2014 protein powerhouse used in parathas & soups.", "price": 240, "unit": "1 kg", "image": "https://images.unsplash.com/photo-1763368392508-3d4bddfdd20a"},
 
     # SPECIALTIES
     {"category_id": "specialties", "name": "Raw Forest Honey", "description": "Wild, unfiltered honey from our hives on the forest edge. Crystallises naturally.", "price": 650, "unit": "500 g", "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924"},
     {"category_id": "specialties", "name": "Himalayan Herbal Tea", "description": "Blend of tulsi, lemongrass, rose petals and mint from our garden.", "price": 280, "unit": "100 g", "image": "https://images.unsplash.com/photo-1653937855510-ec3fd2036d98"},
-    {"category_id": "specialties", "name": "Pahadi Mixed Pickle", "description": "Traditional achaar \u2014 galgal aam, nibu, tomato, chilli and seasonal adrak gajar achar.", "price": 240, "unit": "250 g jar", "image": "https://images.unsplash.com/photo-1553787434-45e1d245bfbb"},
+    {"category_id": "specialties", "name": "Pahadi Mixed Pickle", "description": "Traditional achaar \u2014 galgal aam, nibu, tomato, chilli and seasonal adrak gajar achar.", "price": 240, "unit": "250 g jar", "image": "https://images.pexels.com/photos/35267279/pexels-photo-35267279.jpeg"},
     {"category_id": "specialties", "name": "Organic Camphor Wafers", "description": "Bhimseni camphor \u2014 pure, crystalline, for pooja and aroma.", "price": 300, "unit": "50 g", "image": "https://images.unsplash.com/photo-1540322112357-ebf4f8bfa63c"},
-    {"category_id": "specialties", "name": "Cold-Pressed Mustard Oil", "description": "Wood-pressed kachi ghani mustard oil \u2014 pungent and nutty.", "price": 320, "unit": "1 litre", "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5"},
+    {"category_id": "specialties", "name": "Cold-Pressed Mustard Oil", "description": "Wood-pressed kachi ghani mustard oil \u2014 pungent and nutty.", "price": 320, "unit": "1 litre", "image": "https://images.pexels.com/photos/12284682/pexels-photo-12284682.jpeg"},
 
     # POOJA (Pure Ganga Jal removed per request)
-    {"category_id": "pooja", "name": "Cow-Dung Dhoop Cups", "description": "Dried desi cow-dung cups for hawan and daily pooja \u2014 zero chemicals.", "price": 180, "unit": "12 pieces", "image": "https://images.unsplash.com/photo-1639390167093-9c62311fe84d"},
-    {"category_id": "pooja", "name": "Flower-Residue Agarbatti", "description": "Incense sticks hand-rolled from temple flower waste. Slow, fragrant burn.", "price": 120, "unit": "50 sticks", "image": "https://images.unsplash.com/photo-1599030032319-d78295597e0d"},
+    {"category_id": "pooja", "name": "Cow-Dung Dhoop Cups", "description": "Dried desi cow-dung cups for hawan and daily pooja \u2014 zero chemicals.", "price": 180, "unit": "12 pieces", "image": "https://images.pexels.com/photos/37271694/pexels-photo-37271694.jpeg"},
+    {"category_id": "pooja", "name": "Flower-Residue Agarbatti", "description": "Incense sticks hand-rolled from temple flower waste. Slow, fragrant burn.", "price": 120, "unit": "50 sticks", "image": "https://images.pexels.com/photos/35971137/pexels-photo-35971137.jpeg"},
     {"category_id": "pooja", "name": "Traditional Hawan Samagri", "description": "Nineteen-herb hawan mix blended with local resins and ghee.", "price": 280, "unit": "500 g", "image": "https://images.pexels.com/photos/37116934/pexels-photo-37116934.jpeg"},
     {"category_id": "pooja", "name": "Biodegradable Clay Idols", "description": "Handcrafted eco-friendly idols that dissolve in water without harming soil.", "price": 450, "unit": "each", "image": "https://images.pexels.com/photos/33626434/pexels-photo-33626434.jpeg"},
 ]
